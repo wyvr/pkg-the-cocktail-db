@@ -1,0 +1,21 @@
+{
+  "name": "@wyvr/pkg-the-cocktail-db",
+  "version": "0.0.0",
+  "description": "This wyvr package is an sample package to show how to integrate data from external sources, like REST API, with wyvr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyvr/pkg-the-cocktail-db.git"
+  },
+  "keywords": [
+    "wyvr",
+    "package",
+    "sample",
+    "thecocktaildb"
+  ],
+  "author": "Patrick Mandl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyvr/pkg-the-cocktail-db/issues"
+  },
+  "homepage": "https://github.com/wyvr/pkg-the-cocktail-db#readme"
+}
