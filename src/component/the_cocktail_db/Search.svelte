@@ -4,7 +4,7 @@
         loading: 'none';
         trigger: 'load_the_cocktail_db_search';
     }
-    import { getGlobal, isServer, onServer } from '@wyvr/generator';
+    import { _inject, isServer, onServer } from '@wyvr/generator';
     import { onMount } from 'svelte';
     import search_fn from '@src/component/the_cocktail_db/_search_fn';
 
@@ -18,7 +18,7 @@
     let state = 'waiting';
 
     onServer(() => {
-        data = getGlobal('the_cocktail_db_drink', [], (result) => {
+        data = _inject('the_cocktail_db_drink', [], (result) => {
             return result.map((entry) => {
                 const item = {
                     id: entry.key,
